@@ -34,10 +34,10 @@ def transform_text(text):
 
 
 tfidf = pickle.load(
-    open("D:\\Projects\\SMS Spam Detection\\Model\\vectorizer.pkl", "rb")
+    open("SMS Spam Detection/Model/vectorizer.pkl", "rb")
 )
 model = pickle.load(
-    open("D:\\Projects\\SMS Spam Detection\\Model\\bnb_model.pkl", "rb")
+    open("SMS Spam Detection\\Model\\bnb_model.pkl", "rb")
 )
 
 st.title("Email/SMS Spam Classifier")
